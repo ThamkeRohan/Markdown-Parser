@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-image: url(background.jpg)
+}
+.heading{
+    text-align: center;
+    padding: 20px;
+    color: rgb(65, 64, 64);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    margin: 20px;
+}
+
+.textarea{
+    background-color: rgba(39, 39, 39, 0.61);
+    color: white;
+    
+}
+.preview{
+    background-color:rgba(245, 245, 245, 0.644);
+    color: black;
+    overflow-y: auto;
+}
+.textarea, .preview{
+    padding: 20px;
+    font-size: 1.2rem;
+    height: 70vh;
+    border-radius: 5px;
+}
+.img{
+    width: 70%;
+    margin: auto;
+    display: block;
+}
